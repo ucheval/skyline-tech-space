@@ -1,0 +1,240 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:darkgrey;
+    font-size: 20px;
+    }
+    
+        
+    .user1 {
+        position: absolute;
+        top: 10%;
+        right: 25%;
+        background-color: rgb(230, 216, 216);
+        border: solid rgb(52, 196, 86) 5px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: rgb(255, 106, 0);
+        }
+    
+        .user1 a{
+            text-decoration: none;
+            font-size: 18x;
+            color: rgb(255, 106, 0);
+        }
+    h1{
+        font-size: 18px;
+        padding-top: 10px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    p{
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin:auto;
+        width: 70%;
+        align-items: center;
+        color: lightblue;
+    }
+    
+    /* here is my social */
+    
+    .form-class{
+        margin: 50px;
+    }
+    .form-class a{
+        text-decoration: none;
+        margin: 0px 40px;
+        color: white;
+        
+    }
+    
+    
+    
+    .facebook{
+        background-color: #1778f2;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .twitter{
+        background-color: #1DA1F2 ;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .google{
+        background-color:  #db3236;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    /* social ends  */
+    
+    /* here is diider */
+    .divider{
+        
+        display: flex;
+        align-items: center;
+        margin: 15px;
+    }
+    
+    
+    
+    .divider::before, .divider::after{
+        content: "";
+        padding: 1px;
+        background-color: lightblue;
+        flex: 1;
+        margin: 3px;
+    }
+    
+    .bg{
+        background-color:white;
+        padding: 15px 15px;
+        border-radius: 55%;
+        border: 1px solid lightblue;
+    }
+    
+    /* my form starts here  */
+    
+    .container-form{
+        width: 60%;
+        margin: auto;
+        background-color: white;
+        text-align: center;
+    
+    }
+    
+    /* my inputs styles */
+    input{
+        width: 60%;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid gray;
+        margin: 10px;
+        text-indent: 25px;
+    }
+    
+    input:focus{
+        outline: none;
+    }
+    
+    .icon{
+        position: relative;
+        left: 40px;
+        margin: auto;
+    }
+    
+    input[type=submit]{
+       width: 50%; 
+       margin-left: 45px;
+       padding: 15px;
+       margin-top: 40px;
+        margin-bottom: 20px;
+        background-color:forestgreen;
+        font-size: 20px;
+        color: white ;
+        cursor: pointer;
+    }
+    
+    input[type=code]{
+        width: 8%;
+        
+        
+    }
+    
+    
+    input[type=tel]{
+        width: 43%;
+    }
+    
+    
+    ::placeholder{
+        font-size:18px ;
+        color: lightblue;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    
+    /* here is my mobile responsiveness */
+    
+    @media (max-width:1072px){
+    
+        .container-form{
+            width: 100%;
+        }
+    
+        
+    .form-class{
+        margin:  20px;
+    }
+    .form-class a{
+        margin: 0px 20px;
+        
+        
+    }
+    
+    
+    input[type=tel]{
+        width: 35%;
+    }
+    
+    
+    .icon{
+        
+        font-size: 13px;
+        
+    }
+    
+    ::placeholder{
+        font-size:14px ;
+        color: lightblue;
+        padding: 2px;
+        
+    }
+    
+    h1{
+        font-size: 18px;
+        padding-top: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    p{
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin:auto;
+        width: 70%;
+        align-items: center;
+    }
+    
+    input[type=code]{
+        width: 10%;
+        text-indent: 8px;
+        
+        
+    }
+    
+    
+    
+        
+    .user1 {
+        position: absolute;
+        top: 11%;
+        right: 5%;
+        background-color: rgb(230, 216, 216);
+        border: solid rgb(52, 196, 86) 5px;
+        border-radius: 10px;
+        font-size: 20px;
+        color: rgb(255, 106, 0);
+        }
+    
+        .user1 a{
+            text-decoration: none;
+            font-size: 18x;
+            color: rgb(255, 106, 0);
+        }
+    
+    }
